@@ -170,3 +170,9 @@ The use of FL in this method leverages its ability to handle uncertainties and p
 | 123  | VHFVD                    | VHSVD                     | ATVD                     | LW                         |
 | 124  | VHFVD                    | VHSVD                     | HTVD                     | VLW                        |
 | 125  | VHFVD                    | VHSVD                     | VHTVD                    | VLW                        |
+
+## Implementation
+Details of the Images
+- RGB1_original.jpg : It is the original Image SAR image
+- RGB1_nosiy_0.5.jpg : it is the original image containing with noise
+- RGB1_nosiy_0.5_gaussf.jpg : It is the resultant image after applying the filter to the noisy    image
