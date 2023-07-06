@@ -18,6 +18,7 @@ The use of FL in this method leverages its ability to handle uncertainties and p
 
 
 ### The Novel 125 FI rules designed in this work
+__*Note: Linguistic values corresponding to First Linguistic variable {Very Low First Variable Difference (VLFVD), Low First Variable Difference (LFVD), Average First Variable Difference (AFVD), High First Variable Difference (HFVD) and Very High First Variable Difference (VHFVD)}. Similar notations are followed for other linguistic variables also*__. 
 | Rule | First linguistic variable | Second linguistic variable | Third linguistic variable | Output linguistic variable |
 |------|--------------------------|---------------------------|--------------------------|----------------------------|
 | 1    | VLFVD                    | VLSVD                     | VLTVD                    | VHW                        |
