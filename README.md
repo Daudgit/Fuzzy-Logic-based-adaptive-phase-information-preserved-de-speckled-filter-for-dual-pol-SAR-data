@@ -39,11 +39,11 @@ The use of FL in this method leverages its ability to handle uncertainties and p
 - HTVD - HIgh Third Variable Difference
 
 
-VLW - Very Low Weight
-LW - Low Weight
-AW - Average Weight
-HW - High Weight
-VHW - VEry High Weight
+- VLW - Very Low Weight
+- LW - Low Weight
+- AW - Average Weight
+- HW - High Weight
+- VHW - VEry High Weight
 
 
 | Rule | First linguistic variable | Second linguistic variable | Third linguistic variable | Output linguistic variable |
