@@ -15,3 +15,40 @@ To define the input linguistic variables, different combinations of scattering p
 By incorporating these input linguistic variables and utilizing the FL-based approach with the set of designed FI rules, the proposed method aims to adaptively assign weights to pixels based on their scattering properties. This adaptive weighting strategy takes into account the inter-pixel similarities in scattering properties, allowing for more effective speckle noise suppression while preserving important image features.
 
 The use of FL in this method leverages its ability to handle uncertainties and perform unique processing for each pixel, enhancing the despeckling performance and potentially improving the interpretability and analysis of SAR images.
+
+
+### The Novel 125 FI rules designed in this work
+| Rule | First linguistic variable | Second linguistic variable | Third linguistic variable | Output linguistic variable |
+|------|--------------------------|---------------------------|--------------------------|----------------------------|
+| 1    | VLFVD                    | VLSVD                     | VLTVD                    | VHW                        |
+| 2    | VLFVD                    | VLSVD                     | LTVD                     | VHW                        |
+| 3    | VLFVD                    | VLSVD                     | ATVD                     | VHW                        |
+| 4    | VLFVD                    | VLSVD                     | HTVD                     | VHW                        |
+| 5    | VLFVD                    | VLSVD                     | VHTVD                    | VHW                        |
+| 6    | VLFVD                    | LSVD                      | VLTVD                    | VHW                        |
+| 7    | VLFVD                    | LSVD                      | LTVD                     | VHW                        |
+| 8    | VLFVD                    | LSVD                      | ATVD                     | VHW                        |
+| 9    | VLFVD                    | LSVD                      | HTVD                     | HW                         |
+| 10   | VLFVD                    | LSVD                      | VHTVD                    | HW                         |
+| 11   | VLFVD                    | ASVD                      | VLTVD                    | VHW                        |
+| 12   | VLFVD                    | ASVD                      | LTVD                     | HW                         |
+| 13   | VLFVD                    | ASVD                      | ATVD                     | AW                         |
+| 14   | VLFVD                    | ASVD                      | HTVD                     | AW                         |
+| 15   | VLFVD                    | ASVD                      | VHTVD                    | LW                         |
+| 16   | VLFVD                    | HSVD                      | VLTVD                    | VHW                        |
+| 17   | VLFVD                    | HSVD                      | LTVD                     | AW                         |
+| 18   | VLFVD                    | HSVD                      | ATVD                     | AW                         |
+| 19   | VLFVD                    | HSVD                      | HTVD                     | LW                         |
+| 20   | VLFVD                    | HSVD                      | VHTVD                    | LW                         |
+| 21   | VLFVD                    | VHSVD                     | VLTVD                    | HW                         |
+| 22   | VLFVD                    | VHSVD                     | LTVD                     | HW                         |
+| 23   | VLFVD                    | VHSVD                     | ATVD                     | AW                         |
+| 24   | VLFVD                    | VHSVD                     | HTVD                     | AW                         |
+| 25   | VLFVD                    | VHSVD                     | VHTVD                    | AW                         |
+| 26   | LFVD                     | VLSVD                     | VLTVD                    | VHW                        |
+| 27   | LFVD                     | VLSVD                     | LTVD                     | VHW                        |
+| 28   | LFVD                     | VLSVD                     | ATVD                     | VHW                        |
+| 29   | LFVD                     | VLSVD                     | HTVD                     | VHW                        |
+| 30   | LFVD                     | VLSVD                     | VHTVD                    | VHW                        |
+| 31   | LFVD                     | LSVD                      | VLTVD                    | VHW                        |
+| 32   | LFVD                     | LSVD                      | LTVD                     | VHW                        |
