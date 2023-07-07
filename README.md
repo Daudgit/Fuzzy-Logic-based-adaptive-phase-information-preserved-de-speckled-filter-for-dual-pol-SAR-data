@@ -177,4 +177,4 @@ Details of the Images
 - RGB1_original.jpg : It is the original Image SAR image
 - RGB1_nosiy_0.5.jpg : it is the original image containing with noise
 - RGB1_nosiy_0.5_gaussf.jpg : It is the resultant image after applying the filter to the noisy image
-- Results Generated After the Execution of the code - membershipVSmship_ampl.png , membershipVSmship_lambda.png, membershipVSmship_phase.png, membershipVSwt.png
+- Results Generated After the Execution of the code - membershipVSmship_ampl.png , membershipVSmship_lambda.png, membershipVSmship_phase.png, membershipVSwt.png .
